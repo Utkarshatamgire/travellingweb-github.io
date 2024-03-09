@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>travel and tour</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+    .jumbotron
+    	{
+    		background-color: #74cfe3;
+    		display:flex;
+    		padding:2rem 4rem;
+    		flex-direction:row;
+    		color:white;
+    	}
+
+    .jumbotron img{
+    		width : 675px;
+    	}
+
+   .bg-custom{
+   	background-color:#74cfe3;
+   } 
+
+   .nav-link ,.navbar-brand{
+   	color:white;
+   }
+
+   .navbar-text a{
+   	color:white;
+   }
+
+   .nav-link a{
+   	color:white;
+   }
+   
+    	
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-custom">
+  <a class="navbar-brand" href="#">Tours and Travel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Gallery</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Domestic</a>
+          <a class="dropdown-item" href="#">International</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Contact Us</a>
+      </li>
+    </ul>
+
+    <span class="navbar-text">
+     <a href="#regmodal" data-toggle="modal">Register</a>&nbsp;&nbsp;
+     <a href="#loginmodal" data-toggle="modal">Login</a>
+    </span>
+    </nav>
+<!--end of nav-->
+
+<!--start jumbo-->
+
+<div class="jumbotron">
+	<div id="textarea">
+  <h1 class="display-4">New Adventure</h1>
+  <p class="lead">EXPLORE THE WORLD WITH US</p>
+  <p>Grab exciting discounts for your upcoming holidays to our most-loved destinations!</p>
+  <hr class="my-4">
+  <p>DISCOVER YOUR NEXT ADVENTURE</p>
+  <p class="lead">
+    <a class="btn btn-outline-info btn-md" href="#" role="button">Book Now</a>
+  </p>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+  <div id="imagedata">
+  	 <img src="Projectimages/project.jpg" class="img-fluid">
+  	</div>
+</div>
+
+<!--end of ju-->
+
+<div class="container">
+	<h1 class="text-center my-3">About Our Adventures Tour</h1>
+	<hr width="100px" class="bg-danger">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="Projectimages/i1.jpg" class="img-fluid">
+		</div>
+	<div class="col-md-6">
+
+<p>Are you looking for the most exciting travel and tour vacations for you and your family? Look no further.
+Let Anishka arrange an adventure beyond your wildest dreams with various activities, attractions, and excursions for the entire family.
+Enjoy a Safari Adventure with the younger children or White-Water Rafting with the older ones. We offer activities for those 65 years and older.
+So, whether you are an amateur or experienced, no matter what your family enjoys, we have it for you!</p>
+<p>1. We offer high-end, efficient, quality customer service 24 hours a day, seven days a week. Hours may vary depending on the holidays.
+2. We take pride in honesty and integrity in all we do. We believe in correcting and taking ownership of problems seen and unseen.
+3. Our staff members depict a friendly and courteous environment from the beginning to the ending of your stay. In addition, they make sure we offer hospitality beyond exceptional.
+</div>
+</div>
+</div>
+<!--end od about sec-->
+
+<!--slider-->
+
+<section id="featured-destinations">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Projectimages/a2.jpg" class="d-block w-100" alt="Featured Destination 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Featured Destination 1</h5>
+          <p>Discover the beauty of...</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Projectimages/a4.jpg" class="c-block w-100" alt="Featured Destination 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Featured Destination 2</h5>
+          <p>Experience the charm of...</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--end slider-->
+
+<!--product sec-->
+
+<div class="container">
+	<h1 class="text-center my-3">Our Destination Visit</h1>
+	<hr width="100px" class="bg-danger">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body">
+                 <img src="Projectimages/i3.jpg" class="img-fluid">
+                 </div>
+		    <div class="card-footer">
+		     	<p><b>Pondicherry</b></p>
+            </div>
+        </div>
+     </div>
+     <div class="col-md-3">
+			<div class="card">
+				<div class="card-body">
+                 <img src="Projectimages/g4.jpg" class="img-fluid">
+                 </div>
+		    <div class="card-footer">
+		     	<p><b>Baga Beach</b></p>
+            </div>
+        </div>
+     </div>
+     <div class="col-md-3">
+			<div class="card">
+				<div class="card-body">
+                 <img src="Projectimages/g2.jpg" class="img-fluid">
+                 </div>
+		    <div class="card-footer">
+		     	<p><b>Kovalam Beach</b></p>
+            </div>
+        </div>
+     </div>
+     <div class="col-md-3">
+			<div class="card">
+				<div class="card-body">
+                 <img src="Projectimages/maldives3.jpg" class="img-fluid">
+                 </div>
+		    <div class="card-footer">
+		     	<p><b>Anjuna Beach</b></p>
+            </div>
+        </div>
+     </div>
+ </div>
+</div>&nbsp;&nbsp;&nbsp;
+<!--end of product sec-->
+
+<!--slider-->
+
+
+<!-- Footer Section -->
+  <footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Contact Us</h4>
+          <p>Phone: 7428456378</p>
+          <p>Email: utkarsha@gmail.com</p>
+          <p>Address: Mumbai 123, City, Country</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Follow Us</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Facebook</a></li>
+            <li class="list-inline-item"><a href="#">Twitter</a></li>
+            <li class="list-inline-item"><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!--end of foter-->
+
+<!--reg-->
+<div class="modal" id="regmodal">
+     <div class="modal-dialog">
+         <div class="modal-content">
+             <div class="modal-header">
+                <h3> Register </h3> <button class="close" data-dismiss="modal"> &times </button>
+               </div>
+            <div class="modal-body">
+   <form>
+               <div class="form-group">
+                   <input type="text" placeholder="fullname" class="form-control">
+               </div>
+               <div class="form-group">
+                    <input type="email" placeholder="email ID" class="form-control">
+                </div>
+               <div class="form-group">
+                    <input type="password" placeholder="password" class="form-control">
+               </div>
+               <div class="form-group">
+                    <input type="tel" placeholder="contact" class="form-control">
+               </div>
+               <div class="form-group">
+                    <button type="submit" class="btn btn-success"> Register</button>
+               </div>
+  </form>
+             </div>
+             <div class="modal-footer">
+           <button class="btn btn-danger" data-dismiss="modal"> Cancel </button>          
+             </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="loginmodal">
+     <div class="modal-dialog">
+         <div class="modal-content">
+             <div class="modal-header">
+                <h3> Login </h3> <button class="close" data-dismiss="modal"> &times </button>
+               </div>
+            <div class="modal-body">
+               <form>
+               <div class="form-group">
+                   <input type="email" placeholder="email ID" class="form-control">
+               </div>
+               <div class="form-group">
+                    <input type="password" placeholder="password" class="form-control">
+                </div>
+               
+               <div class="form-group">
+                    <button type="submit" class="btn btn-success"> Login </button>
+               </div>
+  </form>
+            
+             </div>
+             <div class="modal-footer">
+            <button class="btn btn-danger" data-dismiss="modal"> Cancel </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--end of login-->
+
+</body>
+</html>
